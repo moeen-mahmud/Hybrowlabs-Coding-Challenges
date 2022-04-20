@@ -69,3 +69,9 @@ button:active {
   background-color: #121212;
   color: #fff;
 }
+
+button:disabled {
+  background-color: #ddd;
+  color: #ccc;
+  cursor: progress;
+}
