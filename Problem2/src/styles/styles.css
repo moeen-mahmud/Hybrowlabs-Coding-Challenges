@@ -1,15 +1,10 @@
-* {
-  font-size: 16px;
+body {
   box-sizing: border-box;
-  background-color: #fbfbfb;
+  font-size: 16px;
 }
 
-body {
-  max-width: 1280px;
-  margin: 0 auto;
-  background-color: #fff;
-  height: 100vh;
-  padding: 2rem 4rem;
+.container {
+  padding: 1rem 4rem;
 }
 
 h1 {
@@ -47,4 +42,30 @@ table th {
   font-size: 0.85em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+section {
+  margin: 1rem 0;
+}
+
+button {
+  background-color: #121212;
+  color: #fff;
+  box-shadow: none;
+  border: none;
+  text-shadow: none;
+  font-size: 18px;
+  padding: 0.7rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #121212;
+  background-color: #ddd;
+}
+
+button:active {
+  background-color: #121212;
+  color: #fff;
 }
