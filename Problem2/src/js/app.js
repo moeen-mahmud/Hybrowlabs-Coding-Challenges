@@ -28,11 +28,12 @@ const displayPeople = (peopleArray) => {
       const peopleName = people?.name;
 
       const tableBody = document.createElement("tr");
+      tableBody.setAttribute("id", id + peopleName);
 
       tableBody.innerHTML = `
           <td>${peopleName}</td>
           <td>
-            <button onclick="showFilteredPost('${id}')" 
+            <button onclick="deletePeople('${id + peopleName}')" 
               type="button"
             >
               Delete
@@ -43,4 +44,8 @@ const displayPeople = (peopleArray) => {
       dataTable.appendChild(tableBody);
     });
   }
+};
+
+const deletePeople = (id) => {
+  document.getElementById(id).remove();
 };
