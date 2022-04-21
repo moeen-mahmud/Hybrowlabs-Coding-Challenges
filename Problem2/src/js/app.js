@@ -47,5 +47,5 @@ const displayPeople = (peopleArray) => {
 };
 
 const deletePeople = (id) => {
-  document.getElementById(id).remove();
+  return document.getElementById(id).remove();
 };
