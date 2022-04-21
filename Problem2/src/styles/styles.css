@@ -48,7 +48,8 @@ section {
   margin: 1rem 0;
 }
 
-button {
+/* Add people button */
+.add-button {
   background-color: #121212;
   color: #fff;
   box-shadow: none;
@@ -60,18 +61,41 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.add-button:hover {
   color: #121212;
   background-color: #ddd;
 }
 
-button:active {
+.add-button:active {
   background-color: #121212;
   color: #fff;
 }
 
-button:disabled {
+.add-button:disabled {
   background-color: #ddd;
   color: #ccc;
   cursor: progress;
+}
+
+/* Delete people button */
+.delete-button {
+  background-color: #f35a6e;
+  color: #121212;
+  box-shadow: none;
+  border: none;
+  text-shadow: none;
+  font-size: 18px;
+  padding: 0.7rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  color: #121212;
+  background-color: #ee344d;
+}
+
+.delete-button:active {
+  background-color: rgb(247, 7, 7);
+  color: #fff;
 }
