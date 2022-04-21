@@ -1,12 +1,3 @@
-// Test case 1
-// const givenName = "Chinmay Kulkarni";
-
-// Test case 2
-// const givenName = "Amolya Sharma";
-
-// Test case 3
-// const givenName = "pneumonoultra microscopic silicovolcano coniosis";
-
 const findTheFrequencyOfEachCharachters = (string) => {
   // Processing the string to uppercase char for matching and convert them into an array
   const processedString = string.toUpperCase().split("");
@@ -40,6 +31,3 @@ const findTheFrequencyOfEachCharachters = (string) => {
     }
   }
 };
-
-// Initializing the function
-// findTheFrequencyOfEachCharachters(givenName);
